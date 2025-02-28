@@ -1,0 +1,33 @@
+/* src/components/Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-book-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-book-button:hover {
+  background-color: #218838;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
